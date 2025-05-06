@@ -1,0 +1,59 @@
+apt install build-essential dkms linux-headers-$(uname -r) -y
+apt install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11 -y
+apt update
+apt install build-essential dkms
+linux-headers-$(uname -r)
+apt install build-essential dkms linux-headers-$(uname -r)
+./VBoxLinuxAdditions.run
+mount /dev/cdrom /mnt
+cd /mat
+cd /mnt
+is
+ls
+./VBoxLinuxAdditions.run
+reboot
+apt install git
+git clone https://github.com/LautaroLuchesi/TP_AySO.git
+cd TP_AySO
+pwd
+ls -l
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+echo “Lautaro=$(whoami)” > datos_usuario.txt
+whoami
+cho "Usuario=$(whoami)" > datos_usuario.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls -l datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git config --global user.email "lautyy.l2000b@gmail.com"
+git config --global user.name "Lautaro Luchesi"
+git config --global --list
+git config --local --list
+git config --local user.email "lautyy.l2000b@gmail.com"
+git config --local user.name "Lautaro Luchesi"
+git config --local --list
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git status
+echo "CPU=$(grep 'model name' /proc/cpuinfo | head -n1)" >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: agregar modelo de CPU a datos_usuario.txt"
+git push
+git commit -m "feat: agregar modelo de CPU a datos_usuario.txt"
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+cat datos_usuarios.txt
+cat <<EOF >> README.md
+Alumno: Lautaro Luchesi
+División: 315
+Turno: Noche
+EOF
+
+cat README.md
+git add README.md datos_usuarios.txt
+git commit -m "feat: Añadiendo Readme y datos de usuario"
+history -a
